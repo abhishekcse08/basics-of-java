@@ -14,6 +14,7 @@ public class DataDeserilze {
         System.out.println("Employee Name :" + e.name);
         System.out.println(e.id);
         System.out.println(e.salary);
+        System.out.println(e.contactNo);
 
         fis.close();
         ois.close();
