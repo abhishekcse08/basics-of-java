@@ -8,7 +8,7 @@ public class DataSerialize {
     // Deseralization  = Byte Stream -> Java Object
 
     public static void main(String[] args) throws IOException {
-        Employee e = new Employee(101,"Kranthi",5000,"TEST");
+        Employee e = new Employee(101,"Kranthi",5000,"TEST","89r5349857");
 
         FileOutputStream fileOutputStream = new FileOutputStream("employee.ser");
         ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
